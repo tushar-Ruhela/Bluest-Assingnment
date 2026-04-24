@@ -1,0 +1,63 @@
+Problem Statement
+
+AI-Based Deep Learning Model Monitoring and Drift Detection System
+
+Background
+
+Machine learning models deployed in production are not static—they operate in environments where data and user behavior continuously evolve. Over time, this can lead to a decline in model performance.
+
+Without proper monitoring, these issues often go unnoticed until they significantly impact outcomes.
+
+Objective
+
+Design and develop an AI-based system that can:
+
+Continuously monitor model performance and input data
+
+Detect data drift and concept drift
+
+Trigger alerts or automated retraining mechanisms when needed
+
+Key Requirements
+
+Your solution should:
+
+🧠 Identify both subtle and significant drift patterns
+
+⚡ Provide real-time or near real-time monitoring
+
+🔔 Generate alerts for performance degradation
+
+🔄 Support automated or guided retraining workflows
+
+📊 Provide clear insights and visualizations of model behavior
+
+Problem Context-:
+
+Deployed models face several challenges, including:
+
+🔄 Data drift – changes in input data distribution over time
+
+🧠 Concept drift – changes in the underlying relationships the model has learned
+
+📉 Gradual degradation in prediction accuracy
+
+⚠️ Misalignment between training data and real-world data
+
+Key challenges include:
+
+🔍 Difficulty in detecting drift early
+
+📊 Lack of visibility into model performance in real time
+
+⏱️ Delayed response to performance drops
+
+🔄 Manual and reactive model retraining processes
+
+As a result:
+
+🚫 Models produce inaccurate or unreliable predictions
+
+💸 Business decisions may be affected negatively
+
+📉 Trust in AI systems decreases over time
