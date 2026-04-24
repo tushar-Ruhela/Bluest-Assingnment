@@ -34,9 +34,3 @@ Lumina AI is a premium, real-time monitoring solution for production machine lea
 └── install.md          # Setup instructions
 ```
 
-## 🤝 Guided Learning
-If you are new to model monitoring:
-- **Data Drift**: Occurs when your model sees data in production that looks different from what it was trained on (e.g., users starting to behave differently).
-- **Concept Drift**: Occurs when the *meaning* of the data changes (e.g., a "high usage" user used to be loyal, but now they are churning).
-
-Lumina AI detects both and helps you maintain high model reliability.
