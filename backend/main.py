@@ -109,11 +109,11 @@ async def retrain():
     Simulate automated retraining by replacing reference data
     with the current (drifted) distribution.
     """
+    global detector
     if not detector.current_data:
         raise HTTPException(status_code=400, detail="Not enough data to retrain")
         
     new_ref = pd.DataFrame(detector.current_data)
-    global detector
     detector = DriftDetector(new_ref)
     return {"status": "Retrained successful", "new_reference_size": len(new_ref)}
 
